@@ -49,7 +49,6 @@
     <Compile Include="ColumnIndexerTests.cs" />
     <Compile Include="SharedStringGatewayFake.cs" />
     <Compile Include="SheetDocumentXmlReaderTests.cs" />
-    <Compile Include="TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WorksheetGatewayFake.cs" />
   </ItemGroup>

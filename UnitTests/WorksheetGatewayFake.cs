@@ -1,4 +1,5 @@
-﻿using XlsxGateway.Gateways;
+﻿using System.Collections.Generic;
+using XlsxGateway.Gateways;
 using XlsxGateway.Models;
 
 namespace XlsxGateway.UnitTests
@@ -31,6 +32,11 @@ namespace XlsxGateway.UnitTests
             string sheetName, 
             Worksheet updatedWorksheet)
         {
+        }
+
+        public List<string> SheetNamesFrom(string fileName)
+        {
+            return null;
         }
     }
 }
